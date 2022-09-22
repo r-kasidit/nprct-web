@@ -114,13 +114,13 @@ ul li, ol li {
 
 .section-title:before {
   content: "[";
-  color: #6ae5b4b3;
+  color: #66c0b1b3;
   padding-right: 10px;
 }
 
 .section-title:after {
   content: "]";
-  color: #6ae5b4b3;
+  color: #66c0b1b3;
   padding-left: 10px;
 }
 
@@ -249,7 +249,7 @@ ul li, ol li {
 }
 
 .btn-fill:hover {
-  color: #6ae5b4b3;
+  color: #66c0b1b3;
 }
 
 .btn-lg {
@@ -303,7 +303,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background-image: linear-gradient(65deg, #6ae5b4b3 0, #6ae5b4b3 100%);
+  background-image: linear-gradient(65deg, #47a778 0, #47a778 100%);
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -1242,7 +1242,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #3fd5c9 0, #3fd5c9 100%);
+  background-image: linear-gradient(65deg, #2fa197 0, #2fa197 100%);
   color: #fff;
   padding: 38px 28px;
   float: left;
