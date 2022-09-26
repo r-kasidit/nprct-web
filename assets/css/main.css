@@ -635,8 +635,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   font-size: 14px;
   padding: 0 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 40px;
@@ -717,7 +717,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: absolute;
   z-index: 99;
   min-width: 210px;
-  background-color: #fff;
+  background-color: rgb(67, 139, 108);
   white-space: nowrap;
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -738,7 +738,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-left: -5px;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  border-bottom: 10px solid #f5f5f5;
+  border-bottom: 10px solid rgb(67, 139, 108);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -752,7 +752,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -moz-animation: fadeIn 0.4s;
   -o-animation: fadeIn 0.4s;
   -ms-animation: fadeIn 0.4s;
-  background: #f5f5f5;
+  background: rgb(67, 139, 108);
 }
 
 .dropdown .dropdown-menu .dropdown-item {
@@ -1163,7 +1163,7 @@ h1 {
 }
 
 .schedule .nav-tabs .nav-item {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   text-align: center;
   margin: 0 10px;
   display: inline-block;
@@ -1242,7 +1242,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #2fa197 0, #2fa197 100%);
+  background-image: linear-gradient(65deg, #0f6e66 0, #0b615a 100%);
   color: #fff;
   padding: 38px 28px;
   float: left;
@@ -1254,6 +1254,7 @@ h1 {
   max-width: 18%;
 }
 
+
 .schedule .card-header {
   position: relative;
   padding: 35px 40px 35px 224px;
@@ -1262,6 +1263,7 @@ h1 {
   border-left: none;
   width: 100%;
 }
+
 
 .schedule .card-header .images-box {
   width: 70px;
@@ -1284,7 +1286,6 @@ h1 {
   font-weight: 700;
   font-size: 18px;
   color: #212121;
-  text-transform: uppercase;
   margin-bottom: 8px;
 }
 
@@ -1298,14 +1299,86 @@ h1 {
 }
 
 .schedule .card-body {
-  padding: 30px 45px 30px 45px;
+  padding: 10px 45px 10px 45px;
   background: #fff;
+}
+
+.schedule .card-body .schedule-slot-time-body {
+  background-image: linear-gradient(65deg, #2fa197 0, #2fa197 100%);
+  color: #fff;
+  padding: 2% 1% 2% 1%;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-flex: 0;
+  -ms-flex: 9% 0% 9%;
+  flex: 9% 0% 9%;
+  max-width: 18%;
+  margin: 1% 0% 1% 0%;
+}
+
+.schedule .card-body .schedule-slot-time-body-coffee {
+  background-image: linear-gradient(65deg, #2fa162 0, #2fa162 100%);
+  color: #fff;
+  padding: 0% 1% 0% 1%;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-flex: 0;
+  -ms-flex: 9% 0% 9%;
+  flex: 9% 0% 9%;
+  max-width: 18%;
+  margin: 1% 0% 1% 0%;
+}
+
+.schedule .card-body .card-header-body {
+  position: relative;
+  padding: 1% 1% 1% 1%;
+  border-bottom: 1px dashed #e5e5e5;
+  border-left: none;
+  width: 100%;
 }
 
 .schedule .card-body .location {
   margin-top: 8px;
   font-size: 13px;
   color: #777777;
+}
+
+.schedule .card-header-body .images-box-body {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 3%;
+  margin-left: 2%;
+}
+
+.schedule .card-header-body .images-box-body img {
+  border-radius: 50%;
+}
+
+.schedule .card-header-body h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+
+.schedule .card-header-body .name {
+  position: relative;
+  font-size: 14px;
+  color: #777777;
+  font-weight: 500;
+  display: inline-block;
+}
+
+
+.schedule .card-header-body .name-title {
+  position: relative;
+  font-size: 10px;
+  color: #01857a;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
 }
 
 .schedule .card-body .location span {
@@ -2380,6 +2453,11 @@ footer {
   background-size: cover;
 }
 
+.hero-nmt-area-bg {
+  background: url(../img/excursion-nmt/excursion-1.jpg) no-repeat;
+  background-size: cover;
+}
+
 #hero-area {
   color: #fff;
   overflow: hidden;
@@ -2534,4 +2612,56 @@ footer {
   -webkit-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
   -moz-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
   box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+#carousel-thumbs {
+  background: rgba(255, 255, 255, .3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+
+#carousel-thumbs img:hover {
+  border-color: rgba(255, 255, 255, .3);
+}
+
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
 }
