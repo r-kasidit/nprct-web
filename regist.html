@@ -32,31 +32,61 @@
       <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img src="assets/img/logo-sm.png" alt=""></a>       
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <a href="index.html" class="navbar-brand"><img src="assets/img/logo-sm.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="collapse navbar-collapse flex-md-column" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="#header-wrap">
                   Home
                 </a>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#about">Abouth the symposium</a>
+                  <a class="dropdown-item" href="#">Messages from the organizer</a>
+                </div>
+              </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">
-                  Pricing
+                <a class="nav-link" href="#team">
+                  Speakers
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#payment">
-                  Payment methods
+                <a class="nav-link" href="#schedules">
+                  Programme
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#event-up">
-                  Accomadation
+                <a class="nav-link" href="regist.html">
+                  Registration
                 </a>
+              </li>
+            </ul>
+      
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#poster">
+                  Poster presentation
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#excursion">
+                  excursion
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsors">
+                  Sponsors
+                </a>
+              </li>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#google-map-area">
@@ -78,7 +108,7 @@
               <div class="contents text-center">
                 <img src="assets/img/logo-1.png" alt="">
                 <p class="banner-info">18-19 February 2023 - Mandarin Hotel, Bangkok</p>
-                <h2 >Registration will be opened on xx date</h2>
+                <h2 >Registration will be opened soon</h2>
                 
                 
               </div>
@@ -101,7 +131,7 @@
                 <i class="lni-calendar"></i>
               </li>
               <li><span>Important Date 
-              <b>xx November 2022 </b></span></li>
+              <b>TBA </b></span></li>
             </ul>
           </div>
           <div class="row justify-content-center text-center">
@@ -128,54 +158,74 @@
           <div class="col-12">
             <div class="section-title-header text-center">
               <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Registration fees</h2>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">
-
-              </p>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row">
           <div class="col-lg-4 col-md-6 col-xa-12 mb-3">
-            <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="price-block-wrapper active wow fadeInLeft" data-wow-delay="0.2s">
               <div class="colmun-title">
-                <h5>For Thai</h5>
+                <h5>Early bird rate</h5>
+                <span>Date - Date</span>
               </div>
               <div class="price">
-                <h2>2000 THB</h2>
+                <span>Thai</span>
+                <h2>TBA THB</h2>
+                <span>Foriegner</span>
+                <h2>TBA USD</h2>
                 <p>the package including</p>
               </div>
-            
               <div class="pricing-list">
-                
                 <ul>
-                  
                   <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
                   <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
-                  <li><i class="lni-check-mark-circle"></i><span class="text">Excursion</span></li>
-                  
                 </ul>
               </div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzZAlf_OQJfpdOQQbqVJ6N-bQ5K2E_35Ex_QFUvHrRpVHtlA/viewform" class="btn btn-common">Register Now!!!</a>
+              <a href="#" class="btn btn-common">Register now</a>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInUp" data-wow-delay="0.3s">
+              <div class="colmun-title">
+                <h5>Regular rate</h5>
+                <span>Date - Date</span>
+              </div>
+              <div class="price">
+                <span>for Thai</span>
+                <h2>TBA THB</h2>
+                <span>for foriegner</span>
+                <h2>TBA USD</h2>
+                <p>the package including</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common">Register nowt</a>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 col-xa-12 mb-3">
             <div class="price-block-wrapper wow fadeInRight" data-wow-delay="0.4s">
               <div class="colmun-title">
-                <h5>For foriegner</h5>
+                <h5>Onsite rate</h5>
+                <p>Date-Date</p>
               </div>
               <div class="price">
-                <h2>170 USD</h2>
+                <span>for Thai</span>
+                <h2>TBA THB</h2>
+                <span>for foriegner</span>
+                <h2>TBA USD</h2>
                 <p>the package including</p>
               </div>
               <div class="pricing-list">
                 <ul>
                   <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
                   <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
-                  <li><i class="lni-check-mark-circle"></i><span class="text">Excursion</span></li>
                 </ul>
               </div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzZAlf_OQJfpdOQQbqVJ6N-bQ5K2E_35Ex_QFUvHrRpVHtlA/viewform" class="btn btn-common">Register Now!!!</a>
+              <a href="#" class="btn btn-common">Register now</a>
             </div>
           </div>
         </div>
@@ -241,8 +291,16 @@
                 <p>
                   Please follow this link
                 </p>
-
-                <a href="#" class="btn btn-common">Pay via credit card</a>
+                <div class="row justify-content-center" style="padding-top: 10%;">
+                  <div class="col">
+                    <div>
+                      <a href="#" class="btn btn-common">For Thai</a>
+                    </div>
+                    <div style="padding-top: 5%;">
+                      <a href="#" class="btn btn-common">For foriegner</a>
+                    </div>
+                  </div>
+                </div>
               </div>
               
             </div>
