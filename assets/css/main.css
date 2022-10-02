@@ -1318,7 +1318,7 @@ h1 {
 }
 
 .schedule .card-body .schedule-slot-time-body-coffee {
-  background-image: linear-gradient(65deg, #2fa162 0, #2fa162 100%);
+  background-image: linear-gradient(65deg, #9ca39f 0, #9ca39f 100%);
   color: #fff;
   padding: 0% 1% 0% 1%;
   float: left;
@@ -1659,7 +1659,53 @@ h1 {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.team-item .team-overlay .overlay-text {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
+.team-item .team-overlay .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #fff;
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-item .team-overlay .content h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.team-item .team-overlay .content a {
+  color: #4affea;
+  margin-top: 10px;
+  
+}
+
+.team-item .team-overlay :hover .content {
+  top: 50%;
+}
+
+.team-item .team-overlay .overlay-text:hover {
+  opacity: 1;
+}
+
+/*
 .team-item .overlay-social-icon {
   position: absolute;
   top: 50%;
@@ -1671,6 +1717,7 @@ h1 {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 
 .team-item .overlay-social-icon .social-icons {
   padding-left: 0;
@@ -1741,6 +1788,8 @@ h1 {
 .team-item .overlay-social-icon .social-icons li .lni-pinterest:hover {
   background: #bd081c;
 }
+*/
+
 
 .team-item .info-text {
   padding: 20px 0px 5px;
